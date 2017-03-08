@@ -1,0 +1,70 @@
+.container{
+    width: 350px;
+    background-color: #EBEBEB;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px 0;
+}
+.calendar{
+    display: inline-block;
+    padding: 0 20px 20px 20px;
+    background-color: #ffffff;
+}
+
+header{
+    box-sizing: border-box;
+    padding-left: 11px;
+    text-align: left;
+    color: #802a98;
+    margin: 23px 0 18px 0; //计算为 减font-size
+}
+header span{
+    margin: 0 60px;
+}
+header a{
+    color: #802a98 ;
+    text-decoration: none;
+}
+tr{
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    padding: 0 20px;
+}
+th{
+    text-align:center;
+    width: 28px;
+    height: 20px;
+    color: #999;
+    font-size: 15px;
+    margin: 5px 0;
+}
+td{
+    line-height: 20px;
+}
+td span{
+    display: block;
+    text-align:center;
+    width: 28px;
+    height: 20px;
+    color: #999;
+    font-size: 15px;
+    font-weight:500 ;
+    margin: 5px 0;
+    cursor: pointer;
+}
+td:nth-child(3) span{
+    color: #802a98;
+}
+td:first-child,th:first-child{
+    box-sizing: border-box;
+    padding-left: 11px;
+}
+td:last-child,th:last-child{
+    box-sizing: border-box;
+    padding-right: 11px ;
+}
+td span:hover{
+    background-color: #802a98;
+    color: #fff;
+}
